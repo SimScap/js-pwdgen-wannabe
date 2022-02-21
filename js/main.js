@@ -6,3 +6,7 @@ document.getElementById('surname').innerHTML = secondName;
 
 const favouriteColor = prompt("Qual'è il tuo colore preferito?")
 document.getElementById('color').innerHTML = favouriteColor;
+
+document.getElementById("password").innerHTML =
+firstName + secondName + favouriteColor + "21";
+
